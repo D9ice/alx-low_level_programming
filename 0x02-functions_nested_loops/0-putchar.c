@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
 * main - prints putchar
@@ -18,3 +18,4 @@ int main(void)
 
 	return (0);
 }
+
