@@ -1,19 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
-* _memset -> this memory set function
-* @s: string
-* @b: a charcter
-* @n: an integer
-* Return:  a string
-*/
+ * _memset - ironnou
+ * @s: pointer to char params
+ * @b: data to change
+ * @n: index
+ * Return: *s
+ */
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a;
+	unsigned int i;
 
-	for (a = 0; a < n; a++)
-		s[a] = b;
-
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
 	return (s);
 }
